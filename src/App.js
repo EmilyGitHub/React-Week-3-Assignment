@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import ContactsPage from './components/ContactsPage';
-import { Router, Switch, Route, Redirect } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from 'react-router-dom';
 import Home from './components/HomePage';
 import About from './components/AboutPage';
 import './App.css';
